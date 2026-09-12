@@ -157,9 +157,63 @@ output
 ```
 - 
 
-### 3. Structured Outputs & Pydantic
-*Por que forçar JSON na API e como Pydantic garante a consistência dos tipos no Python.*
-- 
+### 3. Janela de contexto
+
+Knowledge
+
+> O que o modelo já sabe.
+
+Context
+
+>O que você está dando ao modelo agora.
+
+RAG
+
+> Um mecanismo para decidir qual conhecimento externo colocar no contexto.
+
+Cache
+
+> Uma maneira de evitar pagar/processar novamente partes repetidas do contexto.
+
+Sumarização
+
+> Uma maneira de comprimir contexto.
+
+Essa distinção é fundamental para trabalhar profissionalmente com IA.
+
+> Uma forma de memorizar
+
+```
+KNOWLEDGE
+"O que o modelo sabe?"
+
+        ↓
+
+RETRIEVAL / RAG
+"O que eu devo buscar?"
+
+        ↓
+
+CONTEXT
+"O que eu vou entregar ao modelo?"
+
+        ↓
+
+CACHE
+"O que já entreguei antes?"
+
+        ↓
+
+SUMMARIZATION
+"O que posso comprimir?"
+
+        ↓
+
+LLM
+"O que ele deve fazer com isso?"
+```
+Também segue um codigo sobre calculos e decisão que vale a pena baixar e testar para calcular os custos [clique aqui](/codigos/02_dia_03.py) para ver o arquivo.
+
 
 ---
 
