@@ -214,7 +214,22 @@ LLM
 ```
 Também segue um codigo sobre calculos e decisão que vale a pena baixar e testar para calcular os custos [clique aqui](/codigos/02_dia_03.py) para ver o arquivo.
 
+### 4. System prompt 
 
+O **System Prompt** é a instrução que chega ao modelo *antes* da conversa do usuário começar. É onde você define:
+
+- Quem o modelo é (persona)
+- O que ele pode e não pode fazer (regras)
+- Como ele deve formatar as respostas (Formato de saida)
+- Qual é o contexto da aplicação
+
+
+Ou seja definimos um um coportamento geral do modelo, definindo quem é a ia e como ela deve agir; 
+
+Foi gerado um arquivo com uns testes usando o system prompt, só configurar a api_key e ser feliz.
+Clique [aqui para o arquivo](/codigos/04_dia_04.py)
+
+#### 5. 
 ---
 
 ## 💻 Snippets & Comandos Úteis

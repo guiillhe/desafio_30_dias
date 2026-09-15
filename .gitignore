@@ -1,0 +1,4 @@
+.env
+*venv
+md_awg/
+05_dia_05.py
